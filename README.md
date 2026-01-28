@@ -20,6 +20,11 @@ O objetivo é prever a quantidade de estoque disponível para os próximos 7 dia
 
 ### 1. Seleção e Análise do Dataset
 O dataset contém 1000 registros de movimentação de estoque, cobrindo o período de 31/12/2023 a 08/02/2024.
+
+![Gráfico de Análise de Estoque](grafico_analise_estoque.png)
+
+*Figura 1: À esquerda, a dinâmica de consumo e reposição (Dente de Serra). À direita, a dispersão mostrando a relação entre preço e volume de vendas.*
+
 Foi realizada uma análise exploratória (EDA) inicial que revelou:
 * **Sazonalidade:** Picos de venda em dias específicos da semana para certas categorias.
 * **Variáveis de Entrada (Features):** `ID_PRODUTO`, `DATA_EVENTO`, `PRECO`.
